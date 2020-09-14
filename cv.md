@@ -48,3 +48,31 @@ encrypt('developer');
 ```
 
 ---
+
+## Experience
+
+| **Projects** | **Links** |
+| :-------: | :----: |
+| HotelOfCats | [GitHub][cats] |
+
+
+[cats]: https://github.com/kamikus5/hotel-cats
+to be continued...
+
+---
+
+## Education
+
+1. HTMLAcademy
+   * [Interactive courses](https://htmlacademy.ru/courses)
+2. IT-Academy
+   * [Website development using HTML, CSS and JavaScript](https://www.it-academy.by/course/front-end-developer/?set_city=84)
+3. itGid
+   * [Course JavaScript 2.0](https://itgid.info/course/javascript-2)
+
+---
+
+## English
+
+* Russian (native speaker).
+* English Basic.
