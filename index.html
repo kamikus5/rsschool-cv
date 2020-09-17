@@ -8,16 +8,119 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="page-header">
-    <div class="container">
-      <div class="page-header__wrap-foto">
-          <img class="page-header__foto" src="images/avatar.jpg" alt="Dmitriy Beloborodov"/>
-      </div>
-      <div class="page-header__wrap-title">
-        <h1 class="page-header__title">Dmitriy <span class="page-header__text-uppercase">Beloborodov</span></h1>
-        <p class="page-header__description">Junior Frontend Developer</p>
-      </div>
+  <div class="wrapper">
+    <div class="page-header__line"></div>
+    <div class="page-header__line-2"></div>
+    <div class="page-header__line-3"></div>
+    <div class="page-header__line-4">
+      <div class="page-header__line-4_1"></div>
+      <div class="page-header__line-4_2"></div>
     </div>
-  </header>
+    <header class="page-header">
+      <div class="container">
+        <div class="page-header__wrap-foto">
+          <img class="page-header__foto" src="images/avatar.jpg" alt="Dmitriy Beloborodov"/>
+        </div>
+        <div class="page-header__wrap-title">
+          <h1 class="page-header__title">Dmitriy <span class="page-header__text-uppercase">Beloborodov</span></h1>
+          <p class="page-header__description">Junior Frontend Developer</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-wrapper">
+        <div class="main__column-1">
+          <section class="contacts">
+            <div class="container">
+              <h2 class="contacts__title title">Contacts</h2>
+              <ul class="contacts__list">
+                <li class="contacts__item">Belarus, Minsk</li>
+                <li class="contacts__item"><a class="contacts__link" href="tel:+375291975264">+375(29)197-52-64</a></li>
+                <li class="contacts__item"><a class="contacts__link" href="mailto:kamikus5@gmail.com">kamikus5@gmail.com</a></li>
+              </ul>
+            </div>
+          </section>
+          <section class="skills">
+            <div class="container">
+              <h2 class="skills__title title">Skills</h2>
+              <ul class="skills__list">
+                <li class="skills__item">
+                  <p class="skills__description">HTML</p>
+                  <div class="skills__progress">
+                    <span class="skills__progress-bar"><span></span></span>
+                  </div>
+                </li>
+                <li class="skills__item">
+                  <p class="skills__description">CSS</p>
+                  <div class="skills__progress">
+                    <span class="skills__progress-bar"><span></span></span>
+                  </div>
+                </li>
+                <li class="skills__item">
+                  <p class="skills__description">JavaScript</p>
+                  <div class="skills__progress">
+                    <span class="skills__progress-bar"><span></span></span>
+                  </div>
+                </li>
+                <li class="skills__item">
+                  <p class="skills__description">jQuery</p>
+                  <div class="skills__progress">
+                    <span class="skills__progress-bar"><span></span></span>
+                  </div>
+                </li>
+                <li class="skills__item">
+                  <p class="skills__description">Bootstrap</p>
+                  <div class="skills__progress">
+                    <span class="skills__progress-bar"><span></span></span>
+                  </div>
+                </li>
+                <li class="skills__item">
+                  <p class="skills__description">SASS/LESS</p>
+                  <div class="skills__progress">
+                    <span class="skills__progress-bar"><span></span></span>
+                  </div>
+                </li>
+                <li class="skills__item">
+                  <p class="skills__description">Gulp</p>
+                  <div class="skills__progress">
+                    <span class="skills__progress-bar"><span></span></span>
+                  </div>
+                </li>
+                <li class="skills__item">
+                  <p class="skills__description">GitHub</p>
+                  <div class="skills__progress">
+                    <span class="skills__progress-bar"><span></span></span>
+                  </div>
+                </li>
+                <li class="skills__item">
+                  <p class="skills__description">VSCode</p>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="examples">
+            <div class="container">
+              <h2 class="examples__title title">Code Example</h2>
+              <pre class="examples__pre">
+                <code class="examples__code">
+const encrypt = (str) => {
+let result = '';
+
+for (let i = 0; i &lt; str.length; i += 2) {
+  const nextSymbol = str[i + 1] || '';
+  result = `${result}${nextSymbol}${str[i]}`;
+}
+                
+return result;
+};
+
+encrypt('developer');
+                </code>
+              </pre>
+            </div>
+          </section>
+        </div>
+      </div>
+  </main>
 </body>
 </html>
