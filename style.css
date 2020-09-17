@@ -222,3 +222,76 @@ a {
   color: #ffffff;
   border-radius: 5px;
 }
+.about {
+  margin: 50px 0;
+}
+.experience {
+  margin: 0 0 30px;
+}
+.experience__wrap-table {
+  display: flex;
+  justify-content: center;
+}
+.experience__table {
+  border-collapse: collapse;
+  border: 1px solid #202020;
+}
+.experience__table th,
+.experience__table td {
+  border: 1px solid #202020;
+  padding: 20px 40px;
+}
+.experience__description {
+  text-align: right;
+}
+.education {
+  margin-bottom: 30px;
+}
+.education__wrap-list {
+  display: flex;
+  justify-content: center;
+}
+.education__list {
+  margin: 0;
+  padding: 0;
+}
+.education__item {
+  margin-bottom: 15px;
+}
+.languages {
+  margin-bottom: 30px;
+}
+.languages__wrap-list {
+  display: flex;
+  justify-content: center;
+}
+.languages__description {
+  text-align: center;
+}
+.footer__line-1 {
+  position: absolute;
+  right: -145px;
+  bottom: 95px;
+  height: 80px;
+  width: 417px;
+  background-color: #202020;
+  transform: rotate(-55deg);
+}
+.footer__line-2 {
+  position: absolute;
+  right: -195px;
+  bottom: 177px;
+  width: 650px;
+  height: 80px;
+  background-color: #202020;
+  transform: rotate(-55deg);
+}
+.footer__line-3 {
+  position: absolute;
+  right: -233px;
+  bottom: 246px;
+  width: 850px;
+  height: 25px;
+  background-color: #202020;
+  transform: rotate(-55deg);
+}
