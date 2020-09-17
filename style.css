@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #202020;
+  font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  max-width: 1170px;
+  margin: 0 auto;
+  background-color: #e5e5e7;
+}
+.container {
+  padding: 0 15px;
+}
+.title {
+  text-transform: uppercase;
+  color: #202020;
+}
+a {
+  text-decoration:underline;
+  color: #202020;
+}
+.page-header__line {
+  position: absolute;
+  left: -145px;
+  top: 95px;
+  height: 80px;
+  width: 417px;
+  background-color: #202020;
+  transform: rotate(-55deg);
+}
+.page-header__line-2 {
+  position: absolute;
+  left: -195px;
+  top: 177px;
+  width: 650px;
+  height: 80px;
+  background-color: #202020;
+  transform: rotate(-55deg);
+}
+.page-header__line-3 {
+  position: absolute;
+  left: -233px;
+  top: 246px;
+  width: 850px;
+  height: 25px;
+  background-color: #202020;
+  transform: rotate(-55deg);
+}
+.page-header__line-4 {
+  position: absolute;
+  overflow: hidden;
+  right: 0;
+  width: 115px;
+  height: 300px;
+}
+.page-header__line-4_1 {
+  position: absolute;
+  top: -8px;
+  right: -167px;
+  width: 400px;
+  height: 80px;
+  background-color: #202020;
+  transform: rotate(-55deg);
+}
+.page-header__line-4_2 {
+  position: absolute;
+  top: 165px;
+  right: -158px;
+  width: 400px;
+  height: 25px;
+  background-color: #202020;
+  transform: rotate(-55deg);
+}
+.page-header {
+  background-color: #ffbd31;
+  min-height: 260px;
+}
+.page-header .container {
+  display: flex;
+  min-height: 260px;
+}
+.page-header__wrap-foto,
+.page-header__wrap-title {
+  position: relative;
+}
+.page-header__wrap-foto {
+  width: 475px;
+}
+.page-header__wrap-title {
+  width: 63%;
+}
+.page-header__foto {
+  position: absolute;
+  left: 35px;
+  top: 45px;
+  display: block;
+  margin-left: 0;
+  width: 350px;
+  height: 350px;
+  border: 6px solid #202020;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: -78px 0;
+}
+.page-header__wrap-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 0 15px;
+}
+.page-header__title {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.page-header__text-uppercase {
+  text-transform: uppercase;
+}
+.page-header__description {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 22px;
+}
