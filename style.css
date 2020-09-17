@@ -123,3 +123,102 @@ a {
   font-weight: bold;
   font-size: 22px;
 }
+.main__wrapper {
+  display: flex;
+}
+.main__column-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 475px;
+}
+.main__column-2 {
+  width: 62%;
+}
+.contacts {
+  width: 100%;
+  margin-top: 170px;
+}
+.contacts__title {
+  text-align: center;
+}
+.contacts__list {
+  margin: 0;
+  padding: 0;
+  padding-left: 50px;
+}
+.contacts__item {
+  margin-bottom: 15px;
+}
+.skills {
+  width: 100%;
+}
+.skills__title {
+  text-align: center;
+}
+.skills__list {
+  margin: 0;
+  padding: 0 0 0 50px;
+}
+.skills__progress {
+  width: 80%;
+  height: 12px;
+  border: 1px solid #202020;
+  border-radius: 5px;
+}
+.skills__progress-bar {
+  display: block;
+  height: 100%;
+}
+.skills__item:nth-child(1) .skills__progress-bar {
+  width: 95%;
+}
+.skills__item:nth-child(2) .skills__progress-bar {
+  width: 90%;
+}
+.skills__item:nth-child(3) .skills__progress-bar {
+  width: 60%;
+}
+.skills__item:nth-child(4) .skills__progress-bar {
+  width: 40%;
+}
+.skills__item:nth-child(5) .skills__progress-bar {
+  width: 50%;
+}
+.skills__item:nth-child(6) .skills__progress-bar {
+  width: 50%;
+}
+.skills__item:nth-child(7) .skills__progress-bar {
+  width: 50%;
+}
+.skills__item:nth-child(8) .skills__progress-bar {
+  width: 50%;
+}
+.skills__progress-bar span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background-color: #202020;
+  border-radius: 2px 5px 5px 2px;
+  animation-name: progress-bar;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes progress-bar {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.examples__title {
+  text-align: center;
+}
+.examples__pre {
+  padding: 0 15px;
+  background-color: #202020;
+  color: #ffffff;
+  border-radius: 5px;
+}
